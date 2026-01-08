@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nav-bar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+
+#nav-link ul {
+  display: flex;
+  gap: 20px;
+}
+#nav-link ul li {
+  list-style: none;
+}
+
+#nav-link ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+#nav-btn button {
+  padding: 10px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+}
