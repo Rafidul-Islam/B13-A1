@@ -43,6 +43,10 @@
   font-size: 1rem;
 }
 
+#nav-link ul li a:hover {
+  text-decoration: underline;
+}
+
 #nav-btn button {
   padding: 10px;
   border: none;
@@ -50,6 +54,10 @@
   color: white;
   font-weight: 800;
   border-radius: 5px;
+}
+
+#nav-btn button:hover {
+  transform: scale(1.1);
 }
 
 #hero {
@@ -82,25 +90,35 @@
   border: none;
 }
 
+#hero .btn-1:hover {
+  box-shadow: 2px 2px 10px rgb(84, 84, 84);
+  backdrop-filter: blur(200px);
+}
+
 #hero .btn-2 {
   border: 1px solid white;
   background-color: transparent;
 }
 
-#feat-card-section {
+#hero .btn-2:hover {
+  box-shadow: 2px 2px 10px rgb(84, 84, 84);
+  backdrop-filter: blur(200px);
+}
+
+#notes-section {
   padding: 5% 10%;
 }
 
-#feat-head {
+#notes-head {
   text-align: center;
 }
 
-#feat-head h1 {
+#note-head h1 {
   font-weight: 600;
   margin-bottom: 15px;
 }
 
-#feat-card-container {
+#notes-card-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,6 +138,7 @@
   gap: 10px;
   padding: 40px 20px;
   background-color: beige;
+  box-shadow: 5px 5px 20px rgb(206, 197, 197);
 }
 .card div {
   background-color: red;
@@ -131,7 +150,7 @@
   border-radius: 50%;
 }
 
-#solution-section {
+#second-brain-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,32 +158,30 @@
   padding: 0 10%;
 }
 
-#knowledge-img {
+.knowledge-img-container {
   width: 600px;
   height: 600px;
+  box-shadow: 5px 5px 30px rgb(206, 197, 197);
 }
 
-#knowledge-img img {
+#knowledge-img-container img {
   width: 100%;
   height: 100%;
 }
 
-#solution-description {
+#second-brain-description {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
 }
 
-#solution-description ul {
+#second-brain-description ul {
   list-style: none;
   line-height: 2;
 }
 
-#solution-description h1 {
-}
-
-#think-section {
+#early-access-section {
   margin: 5% 10%;
   background-color: beige;
   padding: 5%;
@@ -175,9 +192,10 @@
   flex-direction: column;
   gap: 20px;
   text-align: center;
+  box-shadow: 5px 5px 30px rgb(206, 197, 197);
 }
 
-#think-section button {
+#early-access-section button {
   background-color: green;
   border: none;
 }
