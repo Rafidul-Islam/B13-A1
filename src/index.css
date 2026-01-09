@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+.gray {
+  color: rgb(81, 81, 81);
+}
+
+.bold {
+  font-weight: 600;
+}
+
 #nav-bar {
   background-color: #fff;
   display: flex;
@@ -71,4 +79,47 @@
 #hero .btn-2 {
   border: 1px solid white;
   background-color: transparent;
+}
+
+#feat-card-section {
+  padding: 5% 0;
+}
+
+#feat-head {
+  text-align: center;
+}
+
+#feat-head h1 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#feat-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 15vw;
+  text-align: center;
+  gap: 10px;
+  padding: 40px 20px;
+  background-color: beige;
+}
+.card div {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
